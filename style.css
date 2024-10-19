@@ -12,10 +12,24 @@ ul{
 
 input, button {
     font-size: 25px;
+    box-sizing: border-box;
+}
+
+#checkbox{
+    height: 35px;
+    width: 35px;
+    box-sizing: border-box;
+    position: relative;
+    top: 9px;
 }
 
 @media (min-width:801px){
     input, button {
         font-size: 15px;
+    }
+    #checkbox{
+        height: 23px;
+        width: 23px;
+        top: 6px;
     }
 }
